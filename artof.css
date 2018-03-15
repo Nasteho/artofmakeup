@@ -54,17 +54,20 @@ nav ul li a {
 #tagline1{
   color: #dd24d9;
   font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+
   position: absolute;
   left: 550px;
-  top: 200px;
-  font-size: 50px;
+  top: 380px;
+  font-size: 40px;
 }
 #tagline2{
   color: #e7e9c4;
+  font-weight: lighter;
   font-family: 'Lato', sans-serif;
   position: absolute;
   left: 590px;
-  top: 300px;
+  top: 430px;
   font-size: 30px;
 }
 
