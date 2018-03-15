@@ -26,13 +26,16 @@ nav {
   text-align: center;
   position: static;
   top: 20px;
+  margin-top: 18px;
 
 }
 nav ul {
+
   display: block;
   width: 80%;
   list-style-type: none;
-  margin: auto;
+  margin:auto;
+  padding-top: 25px;
   padding: 0;
 }
 nav ul li {
