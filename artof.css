@@ -14,7 +14,7 @@ h2{
   text-align: center;
 }
 a:link {
-  color: white;
+  color: black;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav ul li a {
   line-height: normal;
   text-decoration: none;
   padding: 25px;
-  color: #266ca5;
+  color: black;
 }
 
 section {
@@ -52,11 +52,11 @@ section {
 }
 
 li a:hover {
- color: #85e539;
+ color: pink;
 }
 
 .active {
-  color: #85e539;
+  color: pink;
 }
 
 .kasse1{
@@ -81,7 +81,7 @@ li a:hover {
 .footer{
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
 }
 .kontakt{
   display: inline-block;
