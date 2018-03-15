@@ -21,6 +21,10 @@ a:link {
 }
 
 nav {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: static;
   top: 20px;
   margin-top: 18px;
 
@@ -28,9 +32,11 @@ nav {
 nav ul {
 
   display: block;
+  width: 80%;
   list-style-type: none;
   margin:auto;
-  padding-top: 45px;
+  padding-top: 25px;
+  padding: 0;
 }
 nav ul li {
   display: inline-block;
@@ -83,26 +89,23 @@ li a:hover {
   width: 500px;
   line-height: 2;
 }
-
 .map {
   margin: auto;
 }
 
 
-
+}
 .google{
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .footer{
   display: flex;
   justify-content: center;
   color: black;
 }
-
 .kontakt{
   display: inline-block;
   text-align: left;
@@ -110,18 +113,15 @@ li a:hover {
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .social{
   display: inline-block;
   margin: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .social img{
   margin-left: 10px;
 }
-
 article {
     min-height: 100%;
     display: grid;
@@ -131,22 +131,4 @@ article {
 
 header img {
   padding-top: 25px;
-}
-
-nav {
-  float: right;
-  padding-right: 100px;
-}
-
-header {
-  width: 100%;
-}
-
-header img {
-  float: left;
-  padding-left: 100px;
-}
-
-main img {
-  padding-top:25px;
 }
