@@ -3,7 +3,7 @@ html body {
   background: ..;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: 'Abel',sans-serif;
+  font-family: 'Lato', sans-serif;
   color: black;
 }
 
@@ -36,8 +36,7 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a {
-  font-family: 'Abel',sans-serif;
-  font-weight: bolder;
+
   font-size: x-large;
   text-align: center;
   line-height: normal;
@@ -52,11 +51,11 @@ section {
 }
 
 li a:hover {
- color: pink;
+ color: #dd24d9;
 }
 
 .active {
-  color: pink;
+  color: #dd24d9;
 }
 
 .kasse1{
