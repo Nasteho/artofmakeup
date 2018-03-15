@@ -14,7 +14,7 @@ h2{
   text-align: center;
 }
 a:link {
-  color: white;
+  color: black;
 }
 
 nav {
@@ -56,7 +56,7 @@ li a:hover {
 }
 
 .active {
-  color: black;
+  color: pink;
 }
 
 .kasse1{
