@@ -110,3 +110,7 @@ article {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
 }
+
+header img {
+  padding-top: 25px;
+}
