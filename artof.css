@@ -54,16 +54,19 @@ nav ul li a {
 #tagline1{
   color: #dd24d9;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-
+  font-weight: 400;
   position: absolute;
   left: 550px;
   top: 380px;
   font-size: 40px;
+  background: -webkit-linear-gradient(#DD24D9, #DD91E7);
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 #tagline2{
   color: #000;
-  font-weight: lighter;
+  font-weight: 100;
   font-family: 'Lato', sans-serif;
   position: absolute;
   left: 590px;
@@ -149,7 +152,7 @@ header img {
 
 }
 
-#newlooksection, #look1section, #look2, #look3{
+#newlooksection, #look1section, #look2section, #look3section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +160,7 @@ header img {
   padding: 0 30px;
 }
 
-#newlooktext, #look1text{
+#newlooktext, #look1text, #look2text, #look3text{
   z-index: 9999;
   background: white;
   opacity: ;
