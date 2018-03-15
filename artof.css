@@ -51,6 +51,16 @@ nav ul li a {
   color: black;
 }
 
+
+
+.tekstkasse{
+  height: 650px;
+  width: 100%;
+  background-color: rgba(76, 189, 234, 0.99) ;
+
+}
+
+
 #tagline1{
   color: #dd24d9;
   font-family: 'Lato', sans-serif;
