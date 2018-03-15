@@ -149,11 +149,18 @@ header img {
 
 }
 
-#newlook, #look1, #look2, #look3{
+#newlooksection, #look1section, #look2, #look3{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0 30px;
+}
 
+#newlooktext, #look1text{
+  z-index: 9999;
+  background: white;
+  opacity: ;
+  margin: -42px;
+  padding: 40px 90px;
 }
