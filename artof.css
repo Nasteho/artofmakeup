@@ -62,10 +62,10 @@ nav ul li a {
   text-decoration: none;
   padding: 20px;
   color: black;
-  font-size: 14px;
+  font-size: 18px;
 }
 
-.button{
+button{
   color: white;
   background-color: #dd24d9;
   border-radius: 50px;
@@ -85,6 +85,10 @@ text-align: justify;
 line-height: 1.4;
 }
 
+.tekstkasse p {
+ font-weight: 300;
+
+}
 
 #tagline1{
   color: #dd24d9;
@@ -134,7 +138,6 @@ h1{
 
 #italic{
 text-align: center;
-
 }
 
 #overskrift{
@@ -288,7 +291,7 @@ form{
   padding: 0 10px;
 }
 
-form text {
+form {
   font-weight: 300;
   font-family: 'Lato', sans-serif;
 }
@@ -320,17 +323,17 @@ form text {
 }
 
 */
-#social, #nyhedsbrev{
+footer{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 }
 
 #social {
-  float: left;
+
 }
 
 #nyhedsbrev{
-  float: right;
+
 }
