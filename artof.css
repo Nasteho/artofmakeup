@@ -10,19 +10,6 @@ html body {
   padding: 0;
 }
 
-.logo{
-  height: 75px;
-  margin-top: -10px;
-
-}
-
-#art {
-  color: #dd24d9;
-  margin-top: -4px;
-  font-size: 11px;
-
-}
-
 h2{
   padding-top: 20px;
   padding-bottom: 0;
@@ -39,7 +26,7 @@ nav {
   text-align: center;
   position: static;
   top: 20px;
-  margin-top: 26px;
+  margin-top: 18px;
 
 }
 nav ul {
@@ -60,15 +47,20 @@ nav ul li a {
   text-align: center;
   line-height: normal;
   text-decoration: none;
-  padding: 20px;
+  padding: 25px;
   color: black;
-  font-size: 14px;
 }
 
 
 
 .tekstkasse{
+<<<<<<< HEAD
   
+=======
+  height: 650px;
+  width: 100%;
+  background-color: rgba(76, 189, 234, 0.99) ;
+>>>>>>> 438b90985ec7d67956807addc99463d17f0552b9
 
 }
 
@@ -78,7 +70,7 @@ nav ul li a {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   position: absolute;
-  left: 600px;
+  left: 550px;
   top: 380px;
   font-size: 40px;
   background: -webkit-linear-gradient(#DD76D9, #DD24D9);
@@ -87,11 +79,11 @@ nav ul li a {
   background-clip: text;
 }
 #tagline2{
-  color: #f7f8f9;
+  color: #000;
   font-weight: 100;
   font-family: 'Lato', sans-serif;
   position: absolute;
-  left: 550px;
+  left: 590px;
   top: 430px;
   font-size: 30px;
 }
@@ -105,28 +97,7 @@ li a:hover {
  color: #dd24d9;
 }
 
-h2{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  font-size: 45px;
-}
 
-
-#overskrift{
-  font-size: 25px;
-  color: #000;
-}
-
-p{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  font-weight: auto;
-  font-size: 18px;
-}
-
-b{
-    color: #dd24d9;
-}
 
 .kasse1{
   display: block;
@@ -135,8 +106,18 @@ b{
   width: 500px;
   line-height: 2;
 }
+.map {
+  margin: auto;
+}
 
 
+}
+.google{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer{
   display: flex;
   justify-content: center;
@@ -169,18 +150,16 @@ header img {
   padding-top: 25px;
 }
 
-
 .rowone{
-  padding-top: 10px;
+  padding-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 
-
 }
 
 .rowtwo{
-  padding-top: 90px;
+  padding-top: 140px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -192,7 +171,7 @@ header img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 60px;
+  padding: 0 30px;
 }
 
 #newlooktext, #look1text, #look2text, #look3text{
