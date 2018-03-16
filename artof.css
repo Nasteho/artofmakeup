@@ -81,7 +81,7 @@ button{
 
 .tekstkasse{
 padding: 0 400px;
-text-align: justify;
+text-align: center;
 line-height: 1.4;
 }
 
@@ -95,7 +95,7 @@ line-height: 1.4;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   position: absolute;
-  left: 600px;
+  left: 625px;
   top: 380px;
   font-size: 40px;
   background: -webkit-linear-gradient(#DD76D9, #DD24D9);
