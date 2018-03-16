@@ -80,10 +80,6 @@ nav ul li a {
 
 
 .tekstkasse{
-padding: 0 400px;
-text-align: justify;
-line-height: 1.4;
-font-weight: 300;
 }
 
 
@@ -287,4 +283,9 @@ form{
 
 #social img {
   padding: 0 10px;
+}
+
+form text {
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
