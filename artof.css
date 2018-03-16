@@ -72,12 +72,14 @@ nav ul li a {
   padding: 15px 20px;
   font-size: 15PX;
   font-family: 'Lato', sans-serif;
+  border: 2px solid pink;
 }
 
 
 .tekstkasse{
-
-
+padding: 0 400px;
+text-align: justify;
+line-height: 1.4;
 }
 
 
@@ -119,10 +121,22 @@ h2{
   font-size: 45px;
 }
 
+h1{
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+#italic{
+text-align: center;
+}
 
 #overskrift{
   font-size: 25px;
   color: #000;
+
 }
 
 p{
@@ -130,6 +144,7 @@ p{
   font-family: 'Lato', sans-serif;
   font-weight: auto;
   font-size: 18px;
+  margin: 0;
 }
 
 b{
