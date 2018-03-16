@@ -65,7 +65,10 @@ nav ul li a {
   font-size: 14px;
 }
 
-
+.button{
+  color: white;
+  background-color: #dd24d9;
+}
 
 .tekstkasse{
   height: 1000px;
