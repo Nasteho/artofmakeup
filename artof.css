@@ -304,25 +304,6 @@ form {
   background: #4cbdea;
 }
 
-   /*
-.faceboo{
-  position: absolute;
-  right: 20px;
-}
-.instagra{
-  position: absolute;
-  right: 70px;
-}
-.twitte{
-  position: absolute;
-  right: 130px;
-}
-.youtub{
-  position: absolute;
-  right: 180px;
-}
-
-*/
 footer{
 display: flex;
 flex-direction: column;
@@ -330,10 +311,15 @@ align-items: center;
 justify-content: center;
 }
 
-#social {
-
+#addresseoverskrift {
+  font-size: 19px;
+  padding-bottom: 10px;
+  color: white;
 }
 
-#nyhedsbrev{
-
+.addresse {
+font-size: 14px;
+font-weight: 100px;
+padding-bottom: 20px;
+color: white;
 }
