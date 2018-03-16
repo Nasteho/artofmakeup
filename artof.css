@@ -95,57 +95,6 @@ li a:hover {
 
 
 
-.kasse1{
-  display: block;
-  margin: auto;
-  text-align: left;
-  width: 500px;
-  line-height: 2;
-}
-.map {
-  margin: auto;
-}
-
-
-}
-.google{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer{
-  display: flex;
-  justify-content: center;
-  color: black;
-}
-.kontakt{
-  display: inline-block;
-  text-align: left;
-    margin: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.social{
-  display: inline-block;
-  margin: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.social img{
-  margin-left: 10px;
-}
-article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-}
-
-header img {
-  padding-top: 25px;
-}
-
 .rowone{
   padding-top: 40px;
     display: flex;
