@@ -65,6 +65,8 @@ nav ul li a {
   font-size: 14px;
 }
 
+
+
 .button{
   color: white;
   background-color: #dd24d9;
@@ -73,16 +75,12 @@ nav ul li a {
   font-size: 15PX;
   font-family: 'Lato', sans-serif;
   border: 2px solid pink;
-  position: relative;
-  top: 50%;
-  left: 33%;
 }
 
 
 .tekstkasse{
-padding: 0 400px;
-text-align: justify;
-line-height: 1.4;
+
+
 }
 
 
@@ -124,23 +122,10 @@ h2{
   font-size: 45px;
 }
 
-h1{
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  font-weight: 100;
-  margin-bottom: 0;
-}
-
-#italic{
-text-align: center;
-
-}
 
 #overskrift{
   font-size: 25px;
   color: #000;
-
 }
 
 p{
@@ -148,7 +133,6 @@ p{
   font-family: 'Lato', sans-serif;
   font-weight: auto;
   font-size: 18px;
-  margin: 0;
 }
 
 b{
@@ -232,46 +216,4 @@ header img {
 
 .rowone p, .rowtwo p{
   font-weight: 100;
-}
-
-.footer{
-  color: #fff;
-  clear: both;
-  margin: 0em 0em 0em 0em;
-  padding: 10px;
-  background: #4cbdea;
-}
-
-   /*
-.faceboo{
-  position: absolute;
-  right: 20px;
-}
-.instagra{
-  position: absolute;
-  right: 70px;
-}
-.twitte{
-  position: absolute;
-  right: 130px;
-}
-.youtub{
-  position: absolute;
-  right: 180px;
-}
-
-*/
-#social, #nyhedsbrev{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-}
-
-#social {
-  float: left;
-}
-
-#nyhedsbrev{
-  float: right;
 }
