@@ -73,6 +73,9 @@ nav ul li a {
   font-size: 15PX;
   font-family: 'Lato', sans-serif;
   border: 2px solid pink;
+  position: relative;
+  top: 50%;
+  left: 33%;
 }
 
 
@@ -131,6 +134,7 @@ h1{
 
 #italic{
 text-align: center;
+
 }
 
 #overskrift{
@@ -229,14 +233,16 @@ header img {
 .rowone p, .rowtwo p{
   font-weight: 100;
 }
+
 .footer{
   color: #fff;
   clear: both;
   margin: 0em 0em 0em 0em;
   padding: 10px;
   background: #4cbdea;
-  position: relative;
-   }
+}
+
+   /*
 .faceboo{
   position: absolute;
   right: 20px;
@@ -253,6 +259,19 @@ header img {
   position: absolute;
   right: 180px;
 }
-.social{
+
+*/
+#social, #nyhedsbrev{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+#social {
+  float: left;
+}
+
+#nyhedsbrev{
   float: right;
 }
